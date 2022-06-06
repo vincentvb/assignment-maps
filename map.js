@@ -27,7 +27,7 @@ map.on("load", function () {
     {
       id: "us_counties",
       maxzoom: 9,
-      minzoom: 5.5,
+      minzoom: 5,
       type: "fill",
       source: {
         type: "geojson",
