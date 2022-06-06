@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Election Map 2020</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css' rel='stylesheet'/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id='map'></div>
+    <div id="state-legend" class="legend">
+        <h4>Economic Dependency</h4>
+        <div><span style="background-color: #3498DB"></span>Farming</div>
+        <div><span style="background-color: #A569BD"></span>Nonspecialized</div>
+        <div><span style="background-color: #117864"></span>Manufacturing</div>
+        <div><span style="background-color: #34495E"></span>Recreation</div>
+        <div><span style="background-color: #EA8379"></span>Federal/State Government</div>
+        <div><span style="background-color: #2ECC71"></span>Mining</div>
+    </div>
+    <script type='text/javascript' src="map.js"></script>
+    <div id='map2'></div>
+    <script type='text/javascript' src="map2.js"></script>
+</body>
+</html>
